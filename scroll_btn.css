@@ -34,18 +34,292 @@ font : normal 300 64px/1 'Josefin Sans', sans-serif;
 text-align: center;
 white-space: nowrap;
 }
+#section01 
+{ 
 
-#section01 { background: url(https://picsum.photos/1200/800?image=575) center center / cover no-repeat; }
-#section02 { background: url(https://picsum.photos/1200/800?image=1016) center center / cover no-repeat;}
-#section03 { background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat;}
-#section04 { background: url(https://picsum.photos/1200/800?image=506) center center / cover no-repeat;}
-#section05 { background: url(https://picsum.photos/1200/800?image=1037) center center / cover no-repeat;}
-#section06 { background: url(https://picsum.photos/1200/800?image=901) center center / cover no-repeat;}
-#section07 { background: url(https://picsum.photos/1200/800?image=675) center center / cover no-repeat;}
-#section08 { background: url(https://picsum.photos/1200/800?image=1050) center center / cover no-repeat;}
-#section09 { background: url(https://picsum.photos/1200/800?image=902) center center / cover no-repeat;}
-#section10 { background: url(https://picsum.photos/1200/800?image=516) center center / cover no-repeat;}
 
+    
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    
+
+}  
+#section01 video {
+/* Make video to at least 100% wide and tall */
+min-width: 100%; 
+min-height: 100%; 
+
+/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+width: auto;
+height: auto;
+
+/* Center the video */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+#section02 
+{ 
+
+
+    
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    
+
+}  
+#section02 video {
+/* Make video to at least 100% wide and tall */
+min-width: 100%; 
+min-height: 100%; 
+
+/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+width: auto;
+height: auto;
+
+/* Center the video */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+#section03
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+      
+
+}  
+#section03 video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #section04 
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+      
+
+}  
+#section04 video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #section05 
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+      
+
+}  
+#section05 video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #section06 
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+      
+
+}  
+#section06 video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+#section07 
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+      
+
+}  
+#section07 video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+#section08
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+    
+
+}  
+#section08 video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#section09
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+        
+
+}  
+#section09 video {
+/* Make video to at least 100% wide and tall */
+min-width: 100%; 
+min-height: 100%; 
+
+/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+width: auto;
+height: auto;
+
+/* Center the video */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+#section10
+{ 
+    
+    
+        
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+        
+
+}  
+#section10 video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+    
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+
+      
 #thanks {
 background-color: #fff;
 }
