@@ -1,238 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+  <meta charset="UTF-8">
+    <title>About Me | Vinay N.B.</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
-<style>
-  body{
-      padding: 0;
-      margin: 0;
-  }
-  html {
-  font-family: 'Roboto Condensed', sans-serif;
-  }
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i">
+    <link rel="stylesheet" href="assets/css/aboutme.css">
 
-  #mainnav {
-    position: absolute;
-    font-family: 'Roboto Condensed', sans-serif;
-    z-index: 1;   
-  }
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-  #mainnav li {
-    margin: 55px 0;
-    left: -550px;
-    position: relative;
-    display: none;
-      
-  }
-  #mainnav a {
-    color: white;   
-    text-decoration: none;
-    font-size: 1.4em;
-  } 
-  ul li{
-      list-style: none;
-      margin-top: -50px;
-      
-  }
-  .hamb {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 2.5em;
-    z-index: 1;
-  }
-  .hamb a {
-    color: #fff;
-    text-decoration: none;
-  }
-  html, body, .hero {
-    height: 100%;
-  }
-  .hero {
-    width: 100%;
-    min-height: 600px;
-    background-image:url(testmonial-bg.jpg);
-      background-size: cover;
-  }
-  h1 {
-    font-size: 5em;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #fff;
-    width: 100%;
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  #bubble {
-    width: 100%;
-    height: 100%;
-    opacity: 0.9;
-    position: fixed;
-    display: none;
-    z-index: 1;
-    background: rgba(0, 0, 0, .5);
-  }
-  .gap{
-              
-    color: white;
-    margin-top: 10px;
-    width: 200px;  
-  }
-          
-  h1 span{
-      font-size: 90px;
-      letter-spacing: 4;
-      margin-left: -30px;
-      color: orange;
-  }
-</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
+
 <body>
-    <nav role='navigation' id="mainnav">
+  <nav role='navigation' id="mainnav">
     <br><br><br>
-  <ul class="gap">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="about-me.html">About Me!</a></li>
-    <li><a href="skills.html">Skills</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="hobbies.html">Hobbies</a></li>
-    <li><a href="achievements.html">Achievements</a></li>
-    <li><a href="contact-me.html">Contact Me!</a></li>
- 
-  </ul>
-</nav>  
+    <ul class="gap">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about-me.html">About Me!</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="achievements.html">Achievements</a></li>
+      <li><a href="contact-me.php">Contact Me!</a></li>
+    </ul>
+  </nav>  
 
-<div class="hamb">
-  <a href="#"><i class="fa fa-bars"></i></a>
-</div>
-            <style type="text/css">
-            
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            body {
-                font-family: Raleway, Arial;
-            }
-            
-            .content {
-                height: 500px;
-                background-color: #f69526;
-            }
-            
-            .about {
-                max-width: 600px;
-                
-                margin: 0 auto;
-                padding: 100px 0;
-                transform-style: preserve-3d;
-                transform: perspective(800px);
-            }
-            .about h2 {
-                text-transform: uppercase;
-                font-size: 100px;
-                font-weight: 400;
-            }
-            .about h2, .about p {
-                transition: all 0.8s ease;
-            }
-            .about.hidden h2 {
-                opacity: 0;
-                transform: translate3d(0, 0, 400px) rotateY(-40deg);
-            }
-            .about.hidden p {
-                opacity: 0;
-                transform: translate3d(0, 0, 400px) rotateY(40deg);
-            }      
-        </style>   
-<script>
-        
-$(function() {
-$('a[href*=#]').on('click', function(e) {
-e.preventDefault();
-$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-});
-});
-</script>
-<link rel="stylesheet" type="text/css" href="scroll_btn.css">
-
-
-<section id="section07" class="demo" >
+  <div class="hamb">
+    <a href="#"><i class="fa fa-bars"></i></a>
+  </div>
   
-  <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop width=fill height=auto>
-    <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
-  </video>
-
-  <h1>ABOUT ME !</h1>
-  <a href="#text"><span></span><span id="text"></span><span > </span>Scroll</a>
-</section>
-
-<div class="about hidden" >
-<!-- <h2>About me</h2> -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum massa ac ex gravida, 
-    eu pharetra lorem hendrerit. Praesent sed massa eget massa vehicula volutpat. Donec augue ligula, pretium 
-    a congue sit amet, accumsan eget risus. Sed a imperdiet mauris. Proin ac purus at justo cursus ornare id eget 
-    elit. Cras a egestas massa. Fusce libero libero, pellentesque id vehicula ut, consectetur at lacus. Vestibulum
-      mollis erat nibh. Fusce tincidunt lectus ut orci feugiat, sit amet scelerisque diam imperdiet. Donec et magna 
-      commodo, efficitur velit vel, aliquet enim. Duis nec mollis justo. Duis pulvinar vulputate leo at aliquam.</p>
-      <br><br><br>
-</div>
-
-<div class="about hidden">
-    <!-- <h2>About me</h2> -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum massa ac ex gravida, 
-        eu pharetra lorem hendrerit. Praesent sed massa eget massa vehicula volutpat. Donec augue ligula, pretium 
-        a congue sit amet, accumsan eget risus. Sed a imperdiet mauris. Proin ac purus at justo cursus ornare id eget 
-        elit. Cras a egestas massa. Fusce libero libero, pellentesque id vehicula ut, consectetur at lacus. Vestibulum
-          mollis erat nibh. Fusce tincidunt lectus ut orci feugiat, sit amet scelerisque diam imperdiet. Donec et magna 
-          commodo, efficitur velit vel, aliquet enim. Duis nec mollis justo. Duis pulvinar vulputate leo at aliquam.</p>
-          <br><br><br>
-</div>
-
-<div class="about hidden">
-        <!-- <h2>About me</h2> -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum massa ac ex gravida, 
-            eu pharetra lorem hendrerit. Praesent sed massa eget massa vehicula volutpat. Donec augue ligula, pretium 
-            a congue sit amet, accumsan eget risus. Sed a imperdiet mauris. Proin ac purus at justo cursus ornare id eget 
-            elit. Cras a egestas massa. Fusce libero libero, pellentesque id vehicula ut, consectetur at lacus. Vestibulum
-              mollis erat nibh. Fusce tincidunt lectus ut orci feugiat, sit amet scelerisque diam imperdiet. Donec et magna 
-              commodo, efficitur velit vel, aliquet enim. Duis nec mollis justo. Duis pulvinar vulputate leo at aliquam.</p>
-              <br><br><br>
-    </div>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript">
-    
-    (function() {
-        var aboutEl = $('div.about'),
-            aboutElOffset = aboutEl.offset().top/100,
-            documentEl = $(document);
-        
-        documentEl.on('scroll', function() {
-            if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden') ) 
-                    aboutEl.removeClass('hidden'); 
-        });   
-    })();    
-</script>
-
-
-<canvas id="bubble">
-</canvas>
-
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
-<script>
+  <script>
+  $(function() 
+  {
+    $('a[href*=#]').on('click', function(e) 
+    {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+    });
+  });
+  </script>
+  <link rel="stylesheet" type="text/css" href="scroll_btn.css">
   
-var w = window.innerWidth,
+  <section id="section06" class="demo">
+    <h1>ABOUT ME!</h1>
+    <a href="#text"><span></span><span id="text"></span><span ></span>Scroll</a>
+  </section>
+  
+  <div class="module hidden" id="">
+      <div class="container">
+          <!--end ts-title-->
+          <div class="row ts-align__vertical">
+              <div class="col-md-6">
+                  <img src="assets/img/G1.jpeg" alt="" class="mw-100 mb-5" height=300px>
+              </div>
+              <div class="col-md-6">
+                  <h4></h4>
+                  <p style="font-size: 19px;">
+                  </p>
+              </div>
+          </div>
+          <!--end row-->
+      </div>
+  </div>
+
+  <div class="module hidden" id="para1">
+    <p>
+      Hii..! I'm Vinay, a Developer and a Geek. <br>
+      I have huge passion for programming, I always look forward to work on 
+      meaningful projects with inspiring and creative people. I am adept at 
+      handling multiple tasks and i keep an open mind towards new challenges.
+      I like visiting new places and meeting new people.
+      
+    </p>
+	<style>
+    .btn 
+    {
+      background-color: grey;
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+
+    }
+    .btn:hover 
+    {
+      background-color:white;
+      color: black;;
+    }
+	</style>
+	<p> 
+
+    Download My Resume Here  <t> <button class="btn"><a class="fa fa-download blue" href="assets/resume.pdf" download target="_blank">Downlod</button></a></p>
+    <br><br><br>
+  </div>
+  
+  <div><center><h2>SOCIAL MEDIA</h2></center></div>
+
+  <div class="module hidden">
+    <p>
+    <table id="tablesocial">
+      <tr>
+        <td style="width: auto;"><a href="https://www.linkedin.com/in/NBVinay" target="_blank" ><img src="assets/img/linkedin.png" atl="LINKEDIN" style="width:120px;height:120px;border:0px;padding:25px;"></a></td>
+        <td style="width: auto;"><a href="https://github.com/NBVinay" target="_blank" ><img src="assets/img/github.png" atl="GITHUB" style="width:120px;height:120px;border:0px;padding:25px;"></a></td>
+        <td style="width: auto;"><a href="https://www.instagram.com/vinay.nb/" target="_blank" ><img src="assets/img/instagram.png" atl="INSTAGRAM" style="width:120px;height:120px;border:0px;padding:25px;"></a></td>
+        <td style="width: auto;"><a href="mailto:vinaynb63@gmail.com" target="_blank" ><img src="assets/img/gmail.png" atl="GMAIL" style="width:120px;height:120px;border:0px;padding:25px;"></a></td>
+        <td style="width: auto;"><a href="https://www.facebook.com/vinay.nb.10?ref=bookmarks" target="_blank" ><img src="assets/img/facebook.png" atl="FACEBOOK" style="width:120px;height:120px;border:0px;padding:25px;"></a></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.linkedin.com/in/nbvinay" target="_blank" style="padding: 25px;">LINKEDIN</a></td>
+          <td><a href="https://github.com/sgagankumar" target="_blank" style="padding: 25px;">GITHUB</a></td>
+          <td><a href="https://www.instagram.com/vinay.nb/" target="_blank" style="padding: 25px;">INSTAGRAM</a></td>
+          <td><a href="mailto:vinaynb63@gmail.com@gmail.com" target="_blank" style="padding: 25px;">vinaynb63@gmail.com</a></td>
+          <td><a href="https://www.facebook.com/vinay.nb.10?ref=bookmarks" target="_blank" style="padding: 25px;">FACEBOOK</a></td>
+      </tr>
+    </table>
+    </p>
+    <br><br><br>
+  </div>
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    (function() 
+    {
+      var moduleEl = $('div.module'),
+      moduleElOffset = moduleEl.offset().top/100,
+      documentEl = $(document);
+      
+      documentEl.on('scroll', function() 
+      {
+        if ( documentEl.scrollTop() > moduleElOffset && moduleEl.hasClass('hidden') ) 
+          moduleEl.removeClass('hidden');
+      });
+    })();
+  </script>
+
+  <canvas id="bubble">
+  </canvas>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+  
+  <script>
+    var w = window.innerWidth,
     h = window.innerHeight,
     canvas = document.getElementById('bubble'),
     ctx = canvas.getContext('2d'),
@@ -244,81 +161,85 @@ var w = window.innerWidth,
     speed = 20,
     lights = new Array,
     colors = ['#d59254','#ffffff','#1f2839','#cf7693'];
+    canvas.setAttribute('width',w);
+    canvas.setAttribute('height',h);
 
-canvas.setAttribute('width',w);
-canvas.setAttribute('height',h);
-
-function init() {
-  time = 0;
-  count = 0;
-
-  for(var i = 0; i < arc; i++) {
-    lights[i] = {
-      x: Math.ceil(Math.random() * w),
-      y: Math.ceil(Math.random() * h),
-      toX: Math.random() * 5 + 1,
-      toY: Math.random() * 5 + 1,
-      c: colors[Math.floor(Math.random()*colors.length)],
-      size: Math.random() * size
+    function init() 
+    {
+      time = 0;
+      count = 0;
+    
+      for(var i = 0; i < arc; i++) 
+      {
+        lights[i] = 
+        {
+          x: Math.ceil(Math.random() * w),
+          y: Math.ceil(Math.random() * h),
+          toX: Math.random() * 5 + 1,
+          toY: Math.random() * 5 + 1,
+          c: colors[Math.floor(Math.random()*colors.length)],
+          size: Math.random() * size
+        }
+      }
     }
-  }
-}
 
-function bubble() {
-  ctx.clearRect(0,0,w,h);
+    function bubble() 
+    {
+      ctx.clearRect(0,0,w,h);
 
-  for(var i = 0; i < arc; i++) {
-    var li = lights[i];
+      for(var i = 0; i < arc; i++) {
+        var li = lights[i];
     
-    ctx.beginPath();
-    ctx.arc(li.x,li.y,li.size,0,Math.PI*2,false);
-    ctx.fillStyle = li.c;
-    ctx.fill();
+        ctx.beginPath();
+        ctx.arc(li.x,li.y,li.size,0,Math.PI*2,false);
+        ctx.fillStyle = li.c;
+        ctx.fill();
     
-    li.x = li.x + li.toX * (time * 0.05);
-    li.y = li.y + li.toY * (time * 0.05);
+        li.x = li.x + li.toX * (time * 0.05);
+        li.y = li.y + li.toY * (time * 0.05);
     
-    if(li.x > w) { li.x = 0; }
-    if(li.y > h) { li.y = 0; }
-    if(li.x < 0) { li.x = w; }
-    if(li.y < 0) { li.y = h; }
-  }
-  if(time < speed) {
-    time++;
-  }
-  timerID = setTimeout(bubble,1000/rate);
-}
-init();
-bubble(); 
+        if(li.x > w) { li.x = 0; }
+        if(li.y > h) { li.y = 0; }
+        if(li.x < 0) { li.x = w; }
+        if(li.y < 0) { li.y = h; }
+      }
+      
+      if(time < speed) {
+        time++;
+      }
+      timerID = setTimeout(bubble,1000/rate);
+    }
+    
+    init();
+    bubble(); 
 
-//navigation (this is my code)
-var animation = 'easeOutCubic';
-    delay     = 60;
+    var animation = 'easeOutCubic';
+    delay = 60;
 
-$(document)
-  .on('click', '.fa-bars', function(){
-    var i = 0;
+    $(document)
+        .on('click', '.fa-bars', function(){
+      var i = 0;
     $('nav').before($('#bubble'));
     $('#bubble').fadeIn();
     $('#mainnav').find('li').each(function(){
       var that = $(this);
       i++;
       (function(i, that){
-          setTimeout(function(){
-            that
-              .animate(
-                { 'left'   : '20px' }, 
-                { duration : 350, 
-                  easing   : animation })
-              .fadeIn({queue: false});
-          }, delay * i)
+        setTimeout(function(){
+          that
+          .animate(
+            { 'left'   : '20px' }, 
+            { duration : 350, 
+              easing   : animation })
+          .fadeIn({queue: false});
+        }, delay * i)
       }(i, that))
     }); 
     $('.fa-bars').fadeOut(100,function(){
       $(this)
-        .removeClass('fa-bars')
-        .addClass('fa-times')
-        .fadeIn(); 
+      .removeClass('fa-bars')
+      .addClass('fa-times')
+      .fadeIn(); 
     });
   })
   .on('click', '#bubble, .fa-times', function(){ 
@@ -328,17 +249,16 @@ $(document)
         { 'left'   : '-550px' }, 
         { duration : 250 })
       .fadeOut({queue: false});
-    
     $('.hamb').fadeOut(100, function(){
       $(this)
-        .find($('i'))
-        .removeClass('fa-times')
-        .addClass('fa-bars')
-        .end()
-        .fadeIn();
+      .find($('i'))
+      .removeClass('fa-times')
+      .addClass('fa-bars')
+      .end()
+      .fadeIn();
     });
   }) 
-    
 </script>
+
 </body>
 </html>
